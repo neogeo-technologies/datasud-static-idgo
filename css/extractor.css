@@ -1,0 +1,153 @@
+/*
+ * Copyright (c) 2017-2018 Datasud.
+ * All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+
+#extractor .page-header {
+    background: linear-gradient(#fff 0, rgba(255,255,255,.8) 80%, rgba(255,255,255,.7) 100%);
+    margin-bottom: 30px;
+}
+
+#extractor .page-header h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    font-size: 24px;
+    font-variant: small-caps;
+    line-height: 24px;
+}
+
+#extractor .footer-container .footer {
+    background-color: rgba(255,255,255,.75);
+    -webkit-box-shadow: 0 -1px 2px 0px rgba(255,255,255,1);
+            box-shadow: 0 -1px 2px 0px rgba(255,255,255,1);
+}
+
+
+#extractor .map {
+    position: absolute;
+    height: 100%;
+    min-width: 770px;
+}
+
+
+#extractor .well {
+    background: linear-gradient(#fff 0, rgba(255,255,255,.9) 75%, rgba(255,255,255,.88) 85%, rgba(255,255,255,.9) 90%, rgba(255,255,255,1) 100%);
+}
+
+/* @media (min-width: 768px) {
+    #extractor .leaflet-control-container {
+        width: 750px;
+        min-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    #extractor .leaflet-control-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #extractor .leaflet-control-container {
+        width: 1170px;
+    }
+} */
+
+#extractor .leaflet-control-container {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1px;
+}
+
+#extractor .leaflet-control-layers-expanded {
+    color: #333;
+    background: #fff;
+}
+
+#extractor .leaflet-left {
+    margin-left: 5px;
+}
+
+#extractor .leaflet-right {
+    position: relative;
+    margin-right: 33.33333333%;
+    float: right;
+}
+
+#extractor .leaflet-left .leaflet-control,
+#extractor .leaflet-right .leaflet-control {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+#extractor .leaflet-top {
+    top: 114px;
+}
+
+#extractor .leaflet-bottom {
+    bottom: 35px;
+}
+
+#extractor .leaflet-touch .leaflet-control-layers {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 1px -1px rgba(0,0,0,.123);
+            box-shadow: 0 2px 1px -1px rgba(0,0,0,.123);
+}
+
+#extractor .leaflet-touch .leaflet-bar {
+    border: none;
+    background-color: transparent;
+}
+
+#extractor .leaflet-control-zoom-in,
+#extractor .leaflet-control-zoom-out {
+    margin-top: 5px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    background-color: #0072bc;
+    border-radius: 20px;
+    color: #fff;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(187,171,130,.25);
+            box-shadow: 0 2px 1px 0 rgba(187,171,130,.25);
+}
+
+#extractor .leaflet-control-zoom-in.focus,
+#extractor .leaflet-control-zoom-in:focus,
+#extractor .leaflet-control-zoom-in:hover,
+#extractor .leaflet-control-zoom-out.focus,
+#extractor .leaflet-control-zoom-out:focus,
+#extractor .leaflet-control-zoom-out:hover {
+    background-color: #005b96;
+    color: #e5f0f8;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(187,171,130,.5);
+            box-shadow: 0 2px 1px 0 rgba(187,171,130,.5);
+}
+
+#extractor .wrapper {
+    position: relative;
+    z-index: 1000;
+}
+
+#extractor .leaflet-draw-tooltip {
+    z-index: 1010 !important;
+}
