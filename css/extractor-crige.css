@@ -20,6 +20,10 @@
     src: url("../fonts/poppins/Poppins-Regular.ttf");
 }
 
+#extractor .page-header {
+    border-bottom: 7px solid rgba(22,115,116);
+}
+
 /* #extractor .page-header {
     background: linear-gradient(
       rgba(22,115,116) 0,
