@@ -20,15 +20,14 @@
     src: url("../fonts/poppins/Poppins-Regular.ttf");
 }
 
-#extractor .page-header {
+/* #extractor .page-header {
     background: linear-gradient(
       rgba(22,115,116) 0,
       rgba(22,115,116,.95) 80%,
       rgba(22,115,116,.9) 100%
     );
-    /* padding-top: 30px; */
     padding-bottom: 30px;
-}
+} */
 
 /* .page-header .logo-crige {
     position: absolute;
@@ -38,10 +37,10 @@
     height: 74px;
 } */
 
-.page-header .logo-title {
+/* .page-header .logo-title {
     pointer-events: none;
     background-color: rgba(255,255,255,.75);
-}
+} */
 
 /* .page-header .logo-title-background {
     position: absolute;
@@ -91,7 +90,7 @@
     line-height: 24px;
 } */
 
-#extractor .page-header .login {
+/* #extractor .page-header .login {
     right: 15px;
     vertical-align: middle;
     position: absolute;
@@ -173,7 +172,7 @@
     margin-top: -2px;
     -webkit-box-shadow: none;
             box-shadow: none;
-}
+} */
 
 #extractor .footer-container .footer {
     background-color: rgba(255,255,255,.75);
