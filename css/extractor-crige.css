@@ -20,36 +20,28 @@
     src: url("../fonts/poppins/Poppins-Regular.ttf");
 }
 
-.page-header {
-    background: linear-gradient(rgba(22,115,116) 0, rgba(22,115,116,.95) 80%, rgba(22,115,116,.9) 100%);
-    padding-top: 30px;
+#extractor .page-header {
+    background: linear-gradient(
+      rgba(22,115,116) 0,
+      rgba(22,115,116,.95) 80%,
+      rgba(22,115,116,.9) 100%
+    );
+    /* padding-top: 30px; */
     padding-bottom: 30px;
-    margin-bottom: 100px;
 }
 
-.page-header .logo-crige {
+/* .page-header .logo-crige {
     position: absolute;
     top: -25px;
     left: 15px;
     width: 74px;
     height: 74px;
-    /* padding-bottom: 15px;
-    -webkit-box-shadow: 0 16px 0px -15px #23adad;
-            box-shadow: 0 16px 0px -15px #23adad; */
-}
-
-/* .page-header .logo-crige::before {
-    margin-top: 130px;
-    content: "L'information géographique\bpour tous !";
-    text-align: center;
-    width: 100px;
-    color: #000;
 } */
 
-.page-header .logo-title {
+/* .page-header .logo-title {
     pointer-events: none;
     background-color: rgba(255,255,255,.75);
-}
+} */
 
 /* .page-header .logo-title-background {
     position: absolute;
@@ -64,20 +56,19 @@
     top: -25px;
 } */
 
-.page-header .logo-title img {
+/* .page-header .logo-title img {
     position: absolute;
     top: calc(100% + 30px);
     left: 50%;
     transform: translateX(-50%);
-    /* margin-top: 15px; */
     background-color: rgba(255,255,255,.65);
     padding: 15px;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
-}
+} */
 
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
     .page-header .logo-title img {
         height: 90%;
     }
@@ -87,9 +78,9 @@
     .page-header .logo-title img {
         height: 100%;
     }
-}
+} */
 
-.page-header h1.title {
+/* #extractor .page-header h1.title {
     font-family: PoppinsRegular;
     margin: 0px;
     margin-left: 89px;
@@ -98,9 +89,9 @@
     font-size: 28px;
     font-weight: 600;
     line-height: 24px;
-}
+} */
 
-.page-header .login {
+#extractor .page-header .login {
     right: 15px;
     vertical-align: middle;
     position: absolute;
@@ -108,10 +99,10 @@
     transform: translateY(50%);
 }
 
-.page-header .login button.link,
-.page-header .login button.link.focus,
-.page-header .login button.link:focus,
-.page-header .login button.link:hover {
+#extractor .page-header .login button.link,
+#extractor .page-header .login button.link.focus,
+#extractor .page-header .login button.link:focus,
+#extractor .page-header .login button.link:hover {
     color: #fff;
     background-color: transparent;
     border-color: transparent;
@@ -123,13 +114,13 @@
     text-align: center;
 }
 
-.page-header .login button.link .glyphicon,
-.page-header .login button.link.focus .glyphicon,
-.page-header .login button.link:focus .glyphicon {
+#extractor .page-header .login button.link .glyphicon,
+#extractor .page-header .login button.link.focus .glyphicon,
+#extractor .page-header .login button.link:focus .glyphicon {
     padding-left: 0;
 }
 
-.page-header .login .user-status {
+#extractor .page-header .login .user-status {
     position: relative;
     float: left;
     padding: 5px 12px;
@@ -139,9 +130,9 @@
     font-weight: bold;
 }
 
-.page-header .login button,
-.page-header .login button.focus,
-.page-header .login button:focus {
+#extractor .page-header .login button,
+#extractor .page-header .login button.focus,
+#extractor .page-header .login button:focus {
     background: #fff;
     padding: 5px 12px;
     border-radius: 0;
@@ -155,7 +146,7 @@
     text-align: right;
 }
 
-.page-header .login button > .glyphicon {
+#extractor .page-header .login button > .glyphicon {
     display: inline-block;
     vertical-align: middle;
     font-size: 18px;
@@ -163,15 +154,15 @@
     margin-top: -7px;
 }
 
-.page-header .login      button:hover,
-.page-header .login.open button,
-.page-header .login.open button:hover {
+#extractor .page-header .login      button:hover,
+#extractor .page-header .login.open button,
+#extractor .page-header .login.open button:hover {
     color: #333;
     -webkit-box-shadow: none;
             box-shadow: none;
 }
 
-.page-header .login .dropdown-menu {
+#extractor .page-header .login .dropdown-menu {
     right: 0;
     left: auto;
     width: 100%;
@@ -184,43 +175,30 @@
             box-shadow: none;
 }
 
-.footer-container .footer {
+#extractor .footer-container .footer {
     background-color: rgba(255,255,255,.75);
     -webkit-box-shadow: 0 -1px 2px 0px rgba(255,255,255,1);
             box-shadow: 0 -1px 2px 0px rgba(255,255,255,1);
 }
 
-.map {
+#extractor .map {
     position: absolute;
     height: 100%;
     min-width: 770px;
 }
 
 
-.well {
-    background: linear-gradient(#fff 0, rgba(255,255,255,.9) 75%, rgba(255,255,255,.88) 85%, rgba(255,255,255,.9) 90%, rgba(255,255,255,1) 100%);
+#extractor .well {
+    background: linear-gradient(
+      #fff 0,
+      rgba(255,255,255,.9) 75%,
+      rgba(255,255,255,.88) 85%,
+      rgba(255,255,255,.9) 90%,
+      rgba(255,255,255,1) 100%
+    );
 }
 
-/* @media (min-width: 768px) {
-    .leaflet-control-container {
-        width: 750px;
-        min-width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .leaflet-control-container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .leaflet-control-container {
-        width: 1170px;
-    }
-} */
-
-.leaflet-control-container {
+#extractor .leaflet-control-container {
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
@@ -229,37 +207,37 @@
     min-height: 1px;
 }
 
-.leaflet-control-layers-expanded {
+#extractor .leaflet-control-layers-expanded {
     color: #333;
     background: #fff;
 }
 
-.leaflet-left {
+#extractor .leaflet-left {
     margin-left: 5px;
 }
 
-.leaflet-right {
+#extractor .leaflet-right {
     position: relative;
     margin-right: 33.33333333%;
     float: right;
 }
 
-.leaflet-left .leaflet-control,
-.leaflet-right .leaflet-control {
+#extractor .leaflet-left .leaflet-control,
+#extractor .leaflet-right .leaflet-control {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 10px;
 }
 
-.leaflet-top {
-    top: 185px;
+#extractor .leaflet-top {
+    top: 114px;
 }
 
-.leaflet-bottom {
+#extractor .leaflet-bottom {
     bottom: 35px;
 }
 
-.leaflet-touch .leaflet-control-layers {
+#extractor .leaflet-touch .leaflet-control-layers {
     background-clip: padding-box;
     background-color: #fff;
     border: none;
@@ -268,13 +246,13 @@
             box-shadow: 0 2px 1px -1px rgba(0,0,0,.123);
 }
 
-.leaflet-touch .leaflet-bar {
+#extractor .leaflet-touch .leaflet-bar {
     border: none;
     background-color: transparent;
 }
 
-/* .leaflet-control-zoom-in,
-.leaflet-control-zoom-out {
+#extractor .leaflet-control-zoom-in,
+#extractor .leaflet-control-zoom-out {
     margin-top: 5px;
     padding-right: 1px;
     padding-bottom: 1px;
@@ -283,26 +261,27 @@
     color: #fff;
     -webkit-box-shadow: 0 2px 1px 0 rgba(187,171,130,.25);
             box-shadow: 0 2px 1px 0 rgba(187,171,130,.25);
-} */
+}
 
-/* .leaflet-control-zoom-in.focus,
-.leaflet-control-zoom-in:focus,
-.leaflet-control-zoom-in:hover,
-.leaflet-control-zoom-out.focus,
-.leaflet-control-zoom-out:focus,
-.leaflet-control-zoom-out:hover {
+#extractor .leaflet-control-zoom-in.focus,
+#extractor .leaflet-control-zoom-in:focus,
+#extractor .leaflet-control-zoom-in:hover,
+#extractor .leaflet-control-zoom-out.focus,
+#extractor .leaflet-control-zoom-out:focus,
+#extractor .leaflet-control-zoom-out:hover {
     background-color: #005b96;
     color: #e5f0f8;
     -webkit-box-shadow: 0 2px 1px 0 rgba(187,171,130,.5);
             box-shadow: 0 2px 1px 0 rgba(187,171,130,.5);
-} */
+}
 
-.wrapper {
+
+#extractor .wrapper {
     position: relative;
     z-index: 1000;
 }
 
-.leaflet-draw-tooltip {
+#extractor .leaflet-draw-tooltip {
     z-index: 1010 !important;
 }
 
@@ -372,9 +351,7 @@
             box-shadow: none;
 }
 
-/* ************************************************************************* */
-
-.btn[name="extract"] {
+#extractor .btn[name="extract"] {
     padding: 10px 40px;
     border-radius: 50px;
     background-color: #ed8121;
@@ -386,20 +363,18 @@
     border: none;
 }
 
-.btn[name="extract"].disabled {
+#extractor .btn[name="extract"].disabled {
     background-color: #cecece;
     color: #eee;
 }
 
-.btn[name="extract"].focus,
-.btn[name="extract"]:focus,
-.btn[name="extract"]:hover {
+#extractor .btn[name="extract"].focus,
+#extractor .btn[name="extract"]:focus,
+#extractor .btn[name="extract"]:hover {
     background-color: #ec6446;
 }
 
-/* ************************************************************************* */
-
-.footer-container .footer {
+#extractor .footer-container .footer {
     height: 80px;
     background-image: linear-gradient(
        135deg,
@@ -423,8 +398,6 @@
             box-shadow: none;
 }
 
-.footer-container .footer a {
+#extractor .footer-container .footer a {
     color: #fff;
 }
-
-/* ************************************************************************* */
